@@ -1,0 +1,72 @@
+.bg-custom {
+  background-color: #2441e6;
+}
+.text-custom {
+  color: #2441e6;
+}
+.text-labels {
+  color: #092d4c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.custom-input {
+  background: #eee;
+  border: none;
+}
+.custom-input::placeholder {
+  color: #c9c9c9; 
+}
+.hero-section {
+  background: url("../assets/hero.jpeg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  height: 60vh;
+}
+.benefits-section {
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+.contact-form {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* Fonts */
+
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+

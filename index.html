@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body class="">
+    <!-- Hero -->
+    <section class="hero-section">
+      <div
+        class="d-flex flex-column h-100 align-items-start col-md-4 offset-md-1 text-start justify-content-evenly"
+      >
+        <div>
+          <h2 class="lato-thin position-absolute">LOGOTIPO</h2>
+        </div>
+        <div class="d-flex flex-column align-items-start gap-4">
+          <h1 class="lato-thin">No pierdas ventas este Cyber</h1>
+          <h3 class="lato-bold">
+            Si temes que tu Web se caiga o no cargue bien durante el Cyber,
+            nosotros te podemos ayudar.
+          </h3>
+          <a
+            href="#benefits"
+            class="btn btn-primary border-0 p-3 bg-custom lato-bold"
+            >¡Contáctanos!</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="py-5">
+      <div class="container text-center">
+        <h2 class="text-custom cyberTitle col-md-8 offset-md-2 lato-bold">
+          Podemos preparar tu sitio para el aumento de flujo CyberDay que
+          recibirá en esos días.
+        </h2>
+        <div
+          class="row mt-4 justify-content-center text-start gap-md-5 align-content-between"
+        >
+          <div class="col-md-4">
+            <img
+              src="./assets/img1.png"
+              alt="Simulación"
+              class="img-fluid mb-3"
+            />
+            <h3 class="text-custom lato-bold">
+              Vamos a simular distintos niveles de visitas a tu sitio Web
+            </h3>
+            <div class="d-flex align-items-start gap-2">
+              <img src="./assets/arrow.png" alt="" srcset="" class="mt-2" />
+              <p class="lato-regular">
+                Para conocer cuáles son sus niveles óptimos de rendimiento sin
+                que tu sitio presente problemas de carga.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mt-md-5">
+            <img src="./assets/img2.png" alt="Informe" class="img-fluid mb-3" />
+            <h3 class="text-custom lato-bold">
+              Luego haremos una informe con las recomendaciones
+            </h3>
+            <div class="d-flex align-items-start gap-2">
+              <img src="./assets/arrow.png" alt="" srcset="" class="mt-2" />
+              <p class="lato-regular">
+                Que te realizamos ajustar, y si necesitas ayuda con la
+                implementación, también te podemos ayudar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="benefits-section bg-custom" id="benefits">
+      <div class="container">
+        <h2 class="lato-bold">Beneficios</h2>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <h3 class="lato-black" style="font-size: 80px">53%</h3>
+            <h5 class="lato-regular">
+              De los visitantes abandona un sitio que demora más de 3 segundos
+              en cargar
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <h3 class="lato-black" style="font-size: 80px">79%</h3>
+            <h5 class="lato-regular">
+              De los compradores evitarán un negocio en línea en donde hayan
+              experimentado problemas
+            </h5>
+          </div>
+          <div class="col-md-4">
+            <h3 class="lato-black" style="font-size: 80px">44%</h3>
+            <h5 class="lato-regular">
+              De los compradores en línea compartirá su experiencia negativa con
+              sus amigos
+            </h5>
+          </div>
+        </div>
+
+        <div class="row justify-content-around mt-4 contact-form p-md-4 p-1">
+          <div class="col-md-3">
+            <h1 class="text-dark lato-bold">
+              No dejes el Cyber al Azar <br />
+              ¡Contáctanos!
+            </h1>
+            <img
+              src="./assets/iconPC.png"
+              alt="Informe"
+              class="img-fluid mb-3"
+            />
+          </div>
+
+          <div class="col-md-6">
+            <form class="text-start">
+              <div class="mb-3">
+                <label for="name" class="form-label text-labels lato-regular"
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  class="form-control custom-input"
+                  placeholder="Nombre completo"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-labels lato-regular"
+                  >Empresa</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control custom-input"
+                  placeholder="Ingresa el  nombre de la empresa"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label text-labels lato-regular"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  class="form-control custom-input"
+                  placeholder="Ingresa tu e-mail"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label text-labels lato-regular"
+                  >Mensaje</label
+                >
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="form-control custom-input"
+                  placeholder="Ingresa tu mensaje 
+                    "
+                ></textarea>
+              </div>
+
+              <div class="d-flex flex-column justify-content-between">
+                <div
+                  class="d-flex align-items-center gap-2 px-3 rounded py-3"
+                  style="width: fit-content; background-color: #eee"
+                >
+                  <input type="checkbox" style="transform: scale(1.5)" />
+                  <div class="text-dark">I'm not a robot</div>
+                  <img src="./assets/cap.png" alt="" />
+                </div>
+                <div class="d-flex justify-content-end">
+                  <button
+                    type="submit"
+                    class="btn btn-primary lato-bold bg-custom border-0 px-5 py-2"
+                  >
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row mt-4 align-items-center justify-content-center gap-5">
+          <div class="col-md-4">
+            <h3 class="text-custom fs-2 lato-bold">Nosotros</h3>
+            <h5 class="lato-regular">
+              Somos una empresa chilena orientada a entregar soluciones
+              personalizadas en torno a las tecnologías de la información y las
+              estrategias tecnológicas que mejoren la seguridad, los procesos y
+              la gestión de las empresas.
+            </h5>
+          </div>
+          <div class="col-md-5">
+            <img src="./assets/img3.png" alt="Informe" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="py-5 text-center bg-custom text-light lato-light d-flex flex-column gap-4"
+    >
+      <h2>LOGOTIPO</h2>
+      <h4>Sitio web</h4>
+      <p>Dirección</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
